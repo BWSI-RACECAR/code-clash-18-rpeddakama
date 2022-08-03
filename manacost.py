@@ -50,7 +50,6 @@ class Solution:
 
         cost = cost[::-1]
         for i in cost:
-            print(i, count)
             if i in mana.keys():
                 if mana[i] > 0:
                     mana[i] -= 1
