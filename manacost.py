@@ -54,6 +54,9 @@ class Solution:
                 if mana[i] > 0:
                     mana[i] -= 1
                     count -= 1
+                elif mana["C"] > 0:
+                    mana["C"] -= 1
+                    count -= 1
                 else:
                     return False
             elif count > 0:
